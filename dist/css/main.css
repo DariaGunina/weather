@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.search__input {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 25px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #753107c7; }
+
+.search__button {
+  padding: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #efacc7;
+  color: #753107c7;
+  border: none; }
+
+.container .card {
+  border: 1px solid #753107c7;
+  width: 270px;
+  padding: 20px;
+  margin: 25px;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .container .card__city {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0; }
+  .container .card__temperature {
+    margin-bottom: 0; }
+  .container .card__img {
+    width: 50px;
+    height: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none; }
