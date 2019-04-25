@@ -14,7 +14,9 @@ html(lang="en")
         .container 
             .card
                 .card__info
-                    p.card__city Волгоград
-                    p.card__temperature 25 C
-                img(src="images/sun.jpg", alt="Солнце").card__img
+                    p.card__city#localCity
+                    p.card__temperature#localTemp
+                img(src="", alt="Погода").card__img#localImg
+    
+        script(src="js/scripts.js")
 
